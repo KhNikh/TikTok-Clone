@@ -1,0 +1,25 @@
+.video_sidebar{
+    position: absolute;
+    right: 20px;
+    top: 40%;
+    display:flex;
+    flex-direction: column;
+}
+.video_sidebar p{
+    color:white;
+    text-align:center;
+    margin-top:-10px;
+    margin-bottom: 5px;
+}
+.favourite_icon{
+    filter: invert(1);
+    margin:5px;
+}
+.comment_icon{
+    filter: invert(1);
+    margin:5px;
+}
+.share_icon{
+    filter: invert(1);
+    margin:5px;
+}
