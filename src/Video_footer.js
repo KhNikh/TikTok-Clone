@@ -11,7 +11,7 @@ function Video_footer({channel,description,song}) {
                 <div className="footer_ticker">
                     <MusicNoteIcon className="footer_icon"/>
                     <Ticker mode="smooth">
-                        {({ index }) => (
+                        {({}) => (
                             <>
                                 <p>{song}</p>
                             </>
